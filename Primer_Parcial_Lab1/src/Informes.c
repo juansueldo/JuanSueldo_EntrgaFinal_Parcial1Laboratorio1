@@ -285,7 +285,7 @@ void menu (eContribuyente arrayContribuyentes[], int tam,eRecaudacion arrayRecau
 		case 9:
 			do
 			{
-				utn_menu(&opcion2, "\nINFORMES\n1. MAYOR ESTADO REFINANCIAR \n2. SALDADO E IMPORTE MAYOR A 1000 \n3. BAJA CONTRIBUYENTE \n4. ALTA RECAUDADACIONES \n5. VOLVER ATRAS \nINGRESE: ", "\nNO ES VALIDO\n", 1, 5);
+				utn_menu(&opcion2, "\nINFORMES\n1. MAYOR ESTADO REFINANCIAR \n2. SALDADO E IMPORTE MAYOR A 1000 \n3. MOSTRAR TODOS \n4. FEBRERO \n5. VOLVER ATRAS \nINGRESE: ", "\nNO ES VALIDO\n", 1, 5);
 
 					switch (opcion2)
 					{
